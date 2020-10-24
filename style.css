@@ -1,0 +1,617 @@
+@font-face {
+    font-family: "GrandSlang-Roman";
+    src: url("GrandSlang-Roman.otf");
+}
+
+@font-face {
+    font-family: "MaisonNeue-Book";
+    src: url("MaisonNeue-Book.otf");
+}
+
+@font-face {
+    font-family: "NeueHaasGrotesk";
+    src: url("NeueHaasGrotesk.ttf");
+}
+
+body {
+	background-color: black;
+  -webkit-transition: background-color 150ms ease-out !important;
+  transition: background-color 150ms ease-out !important;
+}
+
+
+h1 {
+  font-family: 'GrandSlang-Roman';
+  color: white;
+  margin: 25px 25px 0px 25px;
+   -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; 
+  cursor: pointer
+}
+
+h2 {
+    font-family: 'MaisonNeue-Book';
+    font-size: 15px;
+    color: white;
+	margin: 25px 25px 0px 25px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; 
+  cursor: pointer
+}
+
+#titlewrapper {
+	display: flex;
+}
+
+
+#name {
+  color: white;
+  font-size: 15px;
+  float: left;
+}
+
+#name:after {
+      border-top: 1px solid green;
+      content: '';
+      display: table-cell;
+      position: relative;
+      top: 0.5em;
+      width: 45%;
+      left: 1.5%;
+}
+
+.enter {
+font-family: 'MaisonNeue-Book';
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.enter:after {
+  position: relative; 
+  top: -10px;
+	content:'ENTER SITE';
+}
+
+.enter:hover:after {
+  position: relative;
+  top: -10px;
+	color: black;
+	content:'OCT 2020'; 
+}
+
+#titlebutton {
+	float: right;
+	width: 150px;
+  height: 40px;
+  margin-top: 5px;
+  position: relative;
+  left: -25px;
+  top: 8px;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  background: black;
+}
+
+#titlebutton:hover {
+	background: white;
+}
+
+#titlewrapper2 {
+  display: none;
+}
+
+
+#name2 {
+  color: black;
+  font-size: 15px;
+  float: left;
+}
+
+.enter2 {
+font-family: 'MaisonNeue-Book';
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.enter2:after {
+  position: relative; 
+  top: -10px;
+  color: black;
+  content:'ENTER SITE';
+}
+
+.enter2:hover:after {
+  position: relative;
+  top: -10px;
+  color: white;
+  content:'OCT 2020'; 
+}
+
+#titlebutton2 {
+  float: right;
+  width: 150px;
+  height: 40px;
+  margin-top: 5px;
+  position: relative;
+  left: -25px;
+  top: 8px;
+  border-radius: 50%;
+  border: 1px solid black;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  background: white;
+}
+
+#titlebutton2:hover {
+  background: black;
+}
+
+
+.container {
+
+  position: absolute;
+  top: 6%;
+  left: 95%;
+  transform:translate( -50%, -50%);
+
+}
+
+
+#nav {
+        display: none;
+      }
+
+      #bigtitle {
+        font-family: "GrandSlang-Roman";
+        font-size: 140px;
+        color: black;
+        
+
+      }
+
+      #bigtitle2 {
+        font-family: "GrandSlang-Roman";
+        font-size: 140px;
+        color: black;
+        
+        position: relative;
+        left: 100%;
+
+
+        }
+
+  .menu-open #titlewrapper { display:none; }
+  .menu-open #titlewrapper2 { display: flex; }
+  .menu-open #nav { display:inline-block; }
+  .menu-open #slogan { display:none; }
+
+
+
+
+/* TOGGLE BUTTON SWITCHING */
+
+.toggle-btn {
+
+  width: 60px;
+  height: 25px;
+  background: black;
+  border-radius: 30px;
+  border:1px solid white;
+  padding: 2px;
+  transition:all 300ms ease-in-out;
+
+
+}
+
+.toggle-btn > .inner-circle {
+
+  width: 28px;
+  height: 25px;
+  background: white;
+  border-radius: 50%;
+  transition:all 300ms ease-in-out;
+
+}
+
+.toggle-btn.active {
+
+  background: white;
+  border:1px solid black;
+
+}
+
+.inner-circle.active {
+
+  background: black;
+
+}
+
+.toggle-btn.active > .inner-circle {
+  margin-left: 32px;
+}
+
+
+p {
+  margin: 25px 25px 20px 25px;
+  font-family: 'MaisonNeue-Book';
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px; 
+  -webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease; 
+  cursor: pointer
+  
+}
+
+
+
+/* LETTER SPACING PRE-ANIMATIONS */
+
+#c_one {
+	word-spacing: 103px;
+   -webkit-animation: animc_one 40s;
+  animation: animc_one 40s;
+  animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+  }
+
+@keyframes animc_one {
+
+  0%   { word-spacing: 103px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 103px; }
+} 
+
+#c_one:hover {
+
+  -webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease; 
+  cursor: pointer
+
+ animation-name: hover-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hover-animation {
+    0% { word-spacing: 103px; }
+    100% { word-spacing: 0px; }
+}
+
+
+#c_two {
+    word-spacing: 66px;
+   -webkit-animation: animc_two 40s;
+    animation: animc_two 40s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes animc_two {
+
+
+
+  0%   { word-spacing: 66px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 66px; }
+} 
+
+#c_two:hover {
+
+ -webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease; 
+  cursor: pointer
+
+ animation-name: hover-animationtwo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hover-animationtwo {
+    0% { word-spacing: 66px; }
+    100% { word-spacing: 0px; }
+}
+
+
+#c_three {
+	word-spacing: 315px;
+  -webkit-animation: animc_three 40s;
+  animation: animc_three 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animc_three {
+
+
+
+  0%   { word-spacing: 315px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 315px; }
+} 
+
+#c_three:hover {
+
+-webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease; 
+  cursor: pointer
+
+ animation-name: hover-animationthree;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hover-animationthree {
+    0% { word-spacing: 315px; }
+    100% { word-spacing: 0px; }
+}
+
+
+
+#c_four {
+	word-spacing: 95px;
+  -webkit-animation: animc_four 40s;
+  animation: animc_four 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes animc_four {
+
+
+
+  0%   { word-spacing: 95px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 95px; }
+} 
+
+ #c_four:hover {
+
+-webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease; 
+  cursor: pointer
+
+ animation-name: hover-animationfour;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hover-animationfour {
+    0% { word-spacing: 95px; }
+    100% { word-spacing: 0px; }
+}
+
+
+#c_five {
+	word-spacing: 315px;
+  -webkit-animation: animc_five 40s;
+  animation: animc_five 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animc_five {
+
+
+
+  0%   { word-spacing: 315px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 315px; }
+} 
+
+#c_five:hover {
+
+  -webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease; 
+  cursor: pointer
+
+ animation-name: hover-animationfive;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hover-animationfive {
+    0% { word-spacing: 315px; }
+    100% { word-spacing: 0px; }
+}
+
+
+
+#c_six {
+  word-spacing: 164px;
+  -webkit-animation: animc_six 40s;
+  animation: animc_six 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animc_six {
+
+
+
+  0%   { word-spacing: 164px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 164px; }
+} 
+
+
+ #c_six:hover {
+
+-webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease; 
+  cursor: pointer
+
+ animation-name: hover-animationsix;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hover-animationsix {
+    0% { word-spacing: 164px; }
+    100% { word-spacing: 0px; }
+}
+
+
+#c_seven {
+  word-spacing: 220px;
+  -webkit-animation: animc_seven 40s;
+  animation: animc_seven 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animc_seven {
+
+
+
+  0%   { word-spacing: 220px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 220px; }
+} 
+
+
+#c_seven:hover {
+
+-webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease; 
+  cursor: pointer
+
+ animation-name: hover-animationseven;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hover-animationseven {
+    0% { word-spacing: 220px; }
+    100% { word-spacing: 0px; }
+}
+
+
+#c_eight {
+  word-spacing: 93px;
+  -webkit-animation: animc_eight 40s;
+  animation: animc_eight 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animc_eight {
+
+  0%   { word-spacing: 93px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 93px; }
+} 
+
+#c_eight:hover {
+
+-webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease; 
+  cursor: pointer
+
+ animation-name: hover-animationeight;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hover-animationseight {
+    0% { word-spacing: 93px; }
+    100% { word-spacing: 0px; }
+}
+
+
+/* LETTER SPACING ANIMATED WHEN PAGE IS LOADED */
+
+
+
+#name:hover {
+  font-size: 20px;
+}
+
+#name2:hover {
+  font-size: 20px;
+}
+
+
+/* LETTER SPACING ANIMATED WHEN HOVERED OVER */
+ 
