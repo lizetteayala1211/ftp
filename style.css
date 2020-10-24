@@ -25,6 +25,7 @@ a {
   text-decoration: none;
 }
 
+
 h1 {
   font-family: 'GrandSlang-Roman';
   color: white;
@@ -60,6 +61,7 @@ h2 {
 }
 
 #name:after {
+      border-top: 1px solid green;
       content: '';
       display: table-cell;
       position: relative;
@@ -86,7 +88,7 @@ font-family: 'MaisonNeue-Book';
   position: relative;
   top: -10px;
 	color: black;
-	content:'OCT 2020'; 
+	content:'ENTER SITE'; 
 }
 
 #titlebutton {
@@ -139,7 +141,7 @@ font-family: 'MaisonNeue-Book';
   position: relative;
   top: -10px;
   color: white;
-  content:'OCT 2020'; 
+  content:'ENTER SITE'; 
 }
 
 #titlebutton2 {
