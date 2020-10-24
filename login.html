@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sable Elyse Smith</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="global.js"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+   <script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script> 
+
+<script>
+    var colors = ["white", "black"];
+    var colorIndex = 0;
+    function changeColor() {
+        var col = document.getElementById("body");
+        if( colorIndex >= colors.length ) {
+            colorIndex = 0;
+        }
+        col.style.backgroundColor = colors[colorIndex];
+        colorIndex++;
+    }
+</script>
+
+</head>
+<body id="body" >
+
+<!-- partial:index.partial.html -->
+
+ <div id="titlewrapper">
+ <div id="name container"> <h1 id="name" >SABLE ELYSE SMITH x THE SWISS INSTITUTE ------------ </h1> <div id="titlebutton" onclick="playAudio('fearSnippet.mp4')"> <span class="enter"></span> </div> </div> </div>
+
+  <div id="titlewrapper2">
+ <div id="name container2"> <h1 id="name2" >SABLE ELYSE SMITH x THE SWISS INSTITUTE ------------ </h1> <div id="titlebutton2"> <span class="enter2"></span> </div> </div> </div>
+
+ <div class="container" onclick="changeColor()"> <div class="toggle-btn" id="showTop" onclick="this.classList.toggle('active')" > <div class="inner-circle" onclick="this.classList.toggle('active')" onclick="GFG_Fun()" > </div> </div> </div>
+
+<div class="showcontainer" id="showTop"> </div>
+
+<div class="pcontainer"  id="slogan" >
+
+<div class="c_one_container">
+<p id="c_one" class="c_one_second">LANGUAGE IS A CIRCULAR SHAPE AROUND US</p> </div>
+
+<p id="c_two">IT HAS LEGS AND SOUNDS AND BLOWS AND SILENCE</p>
+<p id="c_three">DO YOU KNOW THIS?</p>
+<p id="c_four">IT IS A BRICK PULLING OUT ANOTHER BRICK AND TOPPLING DOWN ON TOP OF ITSELF
+ONLY TO BE BUILT BACK UP AGAIN.</p>
+<p id="c_five">DO YOU KNOW THIS?</p>
+<p id="c_six">I THINK WE ARE TALKING NOW.</p>
+<p id="c_seven">WE MIGHT AS WELL.   (BE)</p>
+<p id="c_eight">WE ARE ALL STANDING HERE IN THIS ROOM FIXING OUR MOUTHS TO SAY TOGETHER.</p>
+
+</div>
+
+
+<div class="pcontainer" id="nav">
+
+  <p id="bigtitle">FEAR, </p>
+  <p id="bigtitle2">TOUCH, </p>
+    <p id="bigtitle">POLICE. </p>
+
+
+</div>
+
+<script>
+  document.querySelector('.inner-circle.active').addEventListener('click', ()=>{
+    document.body.classList.toggle('menu-open');
+  });
+</script>
+
+<script>
+  document.querySelector('#showTop').addEventListener('click', ()=>{
+    document.body.classList.toggle('menu-open');
+  });
+</script>
+
+
+<!-- partial -->
+  
+</body>
+</html>
