@@ -55,7 +55,6 @@ h2 {
 }
 
 #name:after {
-      border-top: 1px solid green;
       content: '';
       display: table-cell;
       position: relative;
