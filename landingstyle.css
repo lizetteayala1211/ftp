@@ -35,6 +35,11 @@ script {
   display: none;
 }
 
+.line-spacing-essays {
+	letter-spacing: 1px;
+}
+
+
 .changefont {
 	font-family: "NeueHaasGrotesk";
 }
