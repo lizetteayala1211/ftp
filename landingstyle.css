@@ -82,6 +82,11 @@ video#main-vid {
 	text-underline-position: under;
 }
 
+#installation-underline {
+	text-decoration: underline;
+
+}
+
 #title-line {
    width: 10%; 
    text-align: center; 
