@@ -389,7 +389,7 @@ p#placement-artwork-date-line {
 	display: flex;
 	justify-content: space-between;
 	border: 1px solid white;
-	width: 58%;
+	width: 36%;
 }
 
 #audio-player {
@@ -398,7 +398,7 @@ p#placement-artwork-date-line {
 
 }
 
-div#timeline1 {
+/*div#timeline1 {
     width: 100%;
     height: 2px;
     background: white;
@@ -444,9 +444,9 @@ div#timeline2 {
 .end-time2 {
 	display: none;
 }
+*/
 
-
-#seekObjContainer2 {
+/*#seekObjContainer2 {
 	width: 380px;
 	position: relative;
     left: 60px;
@@ -461,7 +461,7 @@ div#seekObj2 {
     bottom: 10px;
     background: white;
     border-radius: 50%;
-}
+}*/
 
 
 #play-button {
@@ -472,7 +472,16 @@ div#seekObj2 {
 	padding-right: 15px;
 }
 
+.toggle {
+	display: flex;
+	justify-content: flex-start;
+}
+
 #play-button-img {
+	transform: scale(.6);
+}
+
+#pause-button-img {
 	transform: scale(.6);
 }
 
@@ -654,6 +663,17 @@ video#paul-14 {
  width: 95%;
 }
 
+#vl {
+	border-left: 1px solid white;
+  	height: 550px;
+  	position: relative;
+  	left: 55px;
+}
+
+
+
+
+
 #click0 {
 	background: transparent;
 	color: white;
@@ -662,10 +682,20 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
-	padding-bottom: 5px;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+
 }
+
+#click0:hover, #click0:focus, #click0:active, #click0:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+
+}
+
 
 #click {
 	background: transparent;
@@ -675,7 +705,16 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 20px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click:hover, #click:focus, #click:active, #click:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+
 }
 
 #click2 {
@@ -686,7 +725,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click2:hover, #click2:focus, #click2:active, #click2:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click3 {
@@ -697,7 +744,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click3:hover, #click3:focus, #click3:active, #click3:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click4 {
@@ -708,7 +763,14 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 10px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+}
+
+#click4:hover, #click4:focus, #click4:active, #click4:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click5 {
@@ -719,7 +781,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+	
+}
+
+#click5:hover, #click5:focus, #click5:active, #click5:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click6 {
@@ -730,7 +800,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click6:hover, #click6:focus, #click6:active, #click6:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click7 {
@@ -741,7 +819,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click7:hover, #click7:focus, #click7:active, #click7:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click8 {
@@ -752,7 +838,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click8:hover, #click8:focus, #click8:active, #click8:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click9 {
@@ -763,7 +857,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click9:hover, #click9:focus, #click9:active, #click9:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click10 {
@@ -774,7 +876,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click10:hover, #click10:focus, #click10:active, #click10:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click11 {
@@ -785,7 +895,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click11:hover, #click11:focus, #click11:active, #click11:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click12 {
@@ -796,7 +914,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click12:hover, #click12:focus, #click12:active, #click12:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click13 {
@@ -807,7 +933,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click13:hover, #click13:focus, #click13:active, #click13:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #click14 {
@@ -818,7 +952,15 @@ video#paul-14 {
 	padding-right: 20px;
 	border: none;
 	border-color: none;
-	margin-top: 15px;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click14:hover, #click14:focus, #click14:active, #click14:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
 }
 
 #video-slider {
@@ -831,17 +973,17 @@ video#paul-14 {
 	justify-content: flex-start;
 }
 
-#video-slider-numbers-list {
+/*#video-slider-numbers-list {
 	font-family: 'GrandSlang-Roman';
 	border-right: 1px solid white;
-	/*padding-right: 20px;*/
+	padding-right: 20px;
 }
 
 #video-slider-numbers-picked {
 	border-bottom: 1px solid white;
 	padding-bottom: 5px;
 	padding-right: 20px;
-}
+}*/
 
 #video-slider-names-list {
 	font-family: 'GrandSlang-Roman';
@@ -851,11 +993,11 @@ video#paul-14 {
 	padding-left: 20px;
 }
 
-#video-slider-names-picked {
+/*#video-slider-names-picked {
 	border-bottom: 1px solid white;
 	padding-bottom: 5px;
 	padding-left: 20px;
-}
+}*/
 
 #ending-container {
 	display: flex;
