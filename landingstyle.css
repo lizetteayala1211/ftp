@@ -111,6 +111,15 @@ video#main-vid {
 	font-size: 18px;
 }
 
+#artwork-full-title-long {
+	line-height: 4px;
+	font-size: 18px;
+}
+
+.line-height-change {
+	line-height: 1!important;
+}
+
 #artist-line {
    width: 90%; 
    text-align: center; 
@@ -492,6 +501,10 @@ div#seekObj2 {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 50px;
+}
+
+#writing-credits {
+	font-size: 12px;
 }
 
 #slider {
