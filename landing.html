@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="./landingstyle.css">
 <script src="landingglobal.js"></script>
 <script src="jquery.min.js"></script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./landingglobal.js"></script>
 </head>
 
 <body>
@@ -284,9 +286,37 @@
     </div> -->
 
 
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./landingglobal.js"></script>
+<div class="audio-wrapper">
+            <audio id="player2" preload="auto">
+                  <source src="01 Journey in Satchidananda (feat. Pharoah Sanders).mp3" type="audio/mp3">
+            </audio>
 
+            <div class="toggle">
+    <div class="on" onclick="playAudio()">
+    	<img src="playbutton.png" id="play-button-img">
+    </div>
+
+    <script type="text/javascript">
+    	let play = function(){document.getElementById("player2").play()}
+    </script>
+    <div class="off" onclick="pauseAudio()">
+
+<img src="Asset 1@1228x.png" id="pause-button-img">
+    </div>
+
+    <script>
+var x = document.getElementById("player2"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+        </div>
+</div>
 <div> 
 <p id="audio-title"> Alice Coltrane, &nbsp;<em>Journey in Satchidananda</em> </p>
 </div>
@@ -512,7 +542,7 @@ work on a collection of essays about love, faith, art, and the U.S. South.</p>
 	
 <div id="video-slider-numbers-list">
 
-<p id="video-slider-numbers-picked" class="01"> 01 </p>	
+<!-- <p id="video-slider-numbers-picked" class="01"> 01 </p>	
 <p id="video-slider-numbers" class="02"> 02 </p>	
 <p id="video-slider-numbers" class="03"> 03 </p>	
 <p id="video-slider-numbers" class="04"> 04 </p>	
@@ -525,7 +555,9 @@ work on a collection of essays about love, faith, art, and the U.S. South.</p>
 <p id="video-slider-numbers" class="11"> 11 </p>
 <p id="video-slider-numbers" class="12"> 12 </p>
 <p id="video-slider-numbers" class="13"> 13 </p>
-<p id="video-slider-numbers" class="14"> 14 </p>		
+<p id="video-slider-numbers" class="14"> 14 </p>	 -->	
+
+<div id="vl"></div>
 
 </div>
 
@@ -533,7 +565,7 @@ work on a collection of essays about love, faith, art, and the U.S. South.</p>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<input type="button" value="Broner (2020)" id="click0"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Broner&nbsp;&nbsp;(2020)" id="click0"/>
 
 <script type="text/javascript">
 
@@ -555,7 +587,7 @@ $("#click0").click(function() {
 
 <br>
 
-<input type="button" value="Cotto (2016)" id="click"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cotto&nbsp;&nbsp;(2016)" id="click"/>
 
 <script type="text/javascript">
 
@@ -576,7 +608,7 @@ $("#click").click(function() {
 
 <br>
 
-<input type="button" value="De La Hoya (2016)" id="click2"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De La Hoya&nbsp;&nbsp;(2016)" id="click2"/>
 
 <script type="text/javascript">
 
@@ -597,7 +629,7 @@ $("#click2").click(function() {
 
 <br>
 
-<input type="button" value="Duhaupas (2016)" id="click3"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duhaupas&nbsp;&nbsp;(2016)" id="click3"/>
 
 <script type="text/javascript">
 
@@ -618,7 +650,7 @@ $("#click3").click(function() {
 
 <br>
 
-<input type="button" value="Marquez (2016)" id="click4"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marquez&nbsp;&nbsp;(2016)" id="click4"/>
 
 <script type="text/javascript">
 
@@ -639,7 +671,7 @@ $("#click4").click(function() {
 
 <br>
 
-<input type="button" value="Mosely (2015)" id="click5"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mosely&nbsp;&nbsp;(2015)" id="click5"/>
 
 <script type="text/javascript">
 
@@ -660,7 +692,7 @@ $("#click5").click(function() {
 
 <br>
 
-<input type="button" value="Hatton (2015)" id="click6"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hatton&nbsp;&nbsp;(2015)" id="click6"/>
 
 <script type="text/javascript">
 
@@ -681,7 +713,7 @@ $("#click6").click(function() {
 
 <br>
 
-<input type="button" value="Rios (2015)" id="click7"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;08&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rios&nbsp;&nbsp;(2015)" id="click7"/>
 
 <script type="text/javascript">
 
@@ -702,7 +734,7 @@ $("#click7").click(function() {
 
 <br>
 
-<input type="button" value="Maidana (2017)" id="click8"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maidana&nbsp;&nbsp;(2017)" id="click8"/>
 
 <script type="text/javascript">
 
@@ -723,7 +755,7 @@ $("#click8").click(function() {
 
 <br>
 
-<input type="button" value="Pacquiao (2015)" id="click9"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pacquiao&nbsp;&nbsp;;(2015)" id="click9"/>
 
 <script type="text/javascript">
 
@@ -744,7 +776,7 @@ $("#click9").click(function() {
 
 <br>
 
-<input type="button" value="Stiverne (2018)" id="click10"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stiverne&nbsp;&nbsp;(2018)" id="click10"/>
 
 <script type="text/javascript">
 
@@ -765,7 +797,7 @@ $("#click10").click(function() {
 
 <br>
 
-<input type="button" value="Bradley (2016)" id="click11"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bradley&nbsp;&nbsp;(2016)" id="click11"/>
 
 <script type="text/javascript">
 
@@ -786,7 +818,7 @@ $("#click11").click(function() {
 
 <br>
 
-<input type="button" value="Margarito (2015-17)" id="click12"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Margarito&nbsp;&nbsp;(2015-17)" id="click12"/>
 
 <script type="text/javascript">
 
@@ -807,7 +839,7 @@ $("#click12").click(function() {
 
 <br>
 
-<input type="button" value="Kirkland (2016)" id="click13"/>
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kirkland&nbsp;&nbsp;(2016)" id="click13"/>
 
 <script type="text/javascript">
 
@@ -843,31 +875,31 @@ entertainment to explore the role of images in shaping individual and collective
 contemporary world. He has participated in solo and group exhibitions around the world. For the Performa 19 Biennial, Pfeiffer presented his first live performance in collaboration with The Georgia Redcoat Marching Band from the University of Georgia, at the Apollo Theater on November 11, 2019. <br>
 <br>
 <em>Caryatid (Broner)</em>, 2020. Digital video loop. Chromed 32-inch color television with embedded media player. 26 3⁄4 x 29 1⁄2 x 19 in. (67.9 x 74.9 x 49.1 cm) <br>
-<em>Caryatid (Cotto)</em>, 2016. Digital video loop. Chromed 12-inch color television with embedded media player. 9 1⁄2 x 10 1⁄2 x 14 1⁄2 in. (24.1 x 26.7 x 36.8 cm).&nbsp;&nbsp; <a id="installation-underline" href="PPF-18-V.jpg"
+<em>Caryatid (Cotto)</em>, 2016. Digital video loop. Chromed 12-inch color television with embedded media player. 9 1⁄2 x 10 1⁄2 x 14 1⁄2 in. (24.1 x 26.7 x 36.8 cm).&nbsp;&nbsp; <a id="installation-underline" href="https://www.dropbox.com/s/18kzzihxo18bgsp/PPF-18-V.jpg?raw=1"
 target="_blank"> 
 Click here for installation view. </a> <br>
 <em>Caryatid (De La Hoya)</em>, Digital video loop. Chromed 20-inch color television with embedded media player. 23 5⁄8 x 23 5⁄8 x 19 3⁄4 in. (60 x 60 x 50.2 cm) <br>
-<em>Caryatid (Duhaupas)</em>, 2016. Digital video loop. Chromed 21-inch color television with embedded media player. 21 x 20 x 19 in. (53.3 x 50.8 x 48.3 cm).&nbsp;&nbsp; <a id="installation-underline" href="PPF-19-V.jpg"
+<em>Caryatid (Duhaupas)</em>, 2016. Digital video loop. Chromed 21-inch color television with embedded media player. 21 x 20 x 19 in. (53.3 x 50.8 x 48.3 cm).&nbsp;&nbsp; <a id="installation-underline" href="https://www.dropbox.com/s/tc1c6ci66i9q8ao/PPF-19-V.jpg?raw=1"
 target="_blank"> 
 Click here for installation view. </a> <br>
-<em>Caryatid (Marquez)</em>, 2016. Digital video loop. Chromed 21-inch color television with embedded media player. 21 x 20 x 19 in. (53.3 x 50.8 x 48.3 cm).&nbsp;&nbsp; <a id="installation-underline" href="2016_PP_CARYATID (MARQUEZ)_TDA07405.jpg"
+<em>Caryatid (Marquez)</em>, 2016. Digital video loop. Chromed 21-inch color television with embedded media player. 21 x 20 x 19 in. (53.3 x 50.8 x 48.3 cm).&nbsp;&nbsp; <a id="installation-underline" href="https://www.dropbox.com/s/9pc5r8u3w9hs7n9/2016_PP_CARYATID%20%28MARQUEZ%29_TDA07405.jpg?raw=1"
 target="_blank"> 
 Click here for installation view. </a> <br>
 <em>Caryatid (Mosley)</em>, 2015. Digital video loop. Chromed 12-inch color television with embedded media player. 9 1⁄2 x 10 1⁄2 x 14 1⁄2 in. (24.1 x 26.7 x 36.8 cm) <br>
 <em>Caryatid (Hatton)</em>, 2015. Digital video loop. Chromed 21-inch color television with embedded media player. 21 x 20 x 19 in (53 x 50.8 x 48.3 cm)<br>
-<em>Caryatid (Rios)</em>, 2015-2016. Digital video loop. Chromed 12-inch color television with embedded media player. 9 1⁄2 x 10 1⁄2 x 14 1⁄2 in (24.1 x 26.7 x 36.8 cm).&nbsp;&nbsp; <a id="installation-underline" href="PPF-22-V_2.jpg"
+<em>Caryatid (Rios)</em>, 2015-2016. Digital video loop. Chromed 12-inch color television with embedded media player. 9 1⁄2 x 10 1⁄2 x 14 1⁄2 in (24.1 x 26.7 x 36.8 cm).&nbsp;&nbsp; <a id="installation-underline" href="https://www.dropbox.com/s/4iex1zjdxc1mq65/PPF-22-V_2.jpg?raw=1"
 target="_blank"> 
 Click here for installation view. </a> <br>
 <em>Caryatid (Maidana)</em>, 2017. Digital video loop. Chromed 12-inch color television with embedded media player. 9 1⁄2 x 10 1⁄2 x 14 1⁄2 in (24.1 x 26.7 x 36.8 cm)<br>
-<em>Caryatid (Pacquiao)</em>, 2015. Digital video loop. Chromed 12-inch color television with embedded media player. 9 1⁄2 x 10 1⁄2 x 14 1⁄2 in (24.1 x 26.7 x 36.8 cm).&nbsp;&nbsp; <a id="installation-underline" href="Caryatid (Pacquiao), 2015, digital video loop.jpg"
+<em>Caryatid (Pacquiao)</em>, 2015. Digital video loop. Chromed 12-inch color television with embedded media player. 9 1⁄2 x 10 1⁄2 x 14 1⁄2 in (24.1 x 26.7 x 36.8 cm).&nbsp;&nbsp; <a id="installation-underline" href="https://www.dropbox.com/s/azht344eoapxenp/Caryatid%20%28Pacquiao%29%2C%202015%2C%20digital%20video%20loop.jpg?raw=1"
 target="_blank"> 
 Click here for installation view. </a> <br>
 <em>Caryatid (Stiverne)</em>, 2018. Digital video loop. Chromed 32-inch color television with embedded media player. 26 3⁄4 x 29 1⁄2 x 19 5/16 in (68 x 75 x 49 cm) <br>
 <em>Caryatid (Bradley)</em>, 2016. Digital video loop. Chromed 32-inch color television with embedded media player. 26 3⁄4 x 29 1⁄2 x 19 5/16 in (68 x 75 x 49 cm) <br>
-<em>Carytaid (Margarito)</em>, 2015-2017. Digital video loop. Chromed 12-inch color television with embedded media player. 9 1⁄2 x 10 1⁄2 x 14 1⁄2 in (24.1 x 26.7 x 36.8 cm).&nbsp;&nbsp; <a id="installation-underline" href="PPF-23-V_2.jpg"
+<em>Carytaid (Margarito)</em>, 2015-2017. Digital video loop. Chromed 12-inch color television with embedded media player. 9 1⁄2 x 10 1⁄2 x 14 1⁄2 in (24.1 x 26.7 x 36.8 cm).&nbsp;&nbsp; <a id="installation-underline" href="https://www.dropbox.com/s/p4v7kens4iyav9v/PPF-23-V_2.jpg?raw=1"
 target="_blank"> 
 Click here for installation view. </a> <br>
-<em>Caryatid (Kirkland)</em>, 2016. Digital video loop. Chromed 32-inch color television with embedded media player. 26 3⁄4 x 29 1⁄2 x 19 5/16 in (68 x 75 x 49 cm).&nbsp;&nbsp; <a id="installation-underline" href="PPF-20-V.jpg"
+<em>Caryatid (Kirkland)</em>, 2016. Digital video loop. Chromed 32-inch color television with embedded media player. 26 3⁄4 x 29 1⁄2 x 19 5/16 in (68 x 75 x 49 cm).&nbsp;&nbsp; <a id="installation-underline" href="https://www.dropbox.com/s/i6e969oo5rt6r5l/PPF-20-V.jpg?raw=1"
 target="_blank"> 
 Click here for installation view. </a> <br>
 <br>
@@ -1645,7 +1677,7 @@ Jibade-Khalil Huffman, <em>"Niagara,"</em> in Sleeper Hold (Hudson: Fence Books,
 <div id="audio-container">
 
 
-<div class="audio-player">
+<!-- <div class="audio-player">
         
         <div class="player-controls scrubber">
             <small class="start-time2"></small>
@@ -1668,8 +1700,39 @@ Jibade-Khalil Huffman, <em>"Niagara,"</em> in Sleeper Hold (Hudson: Fence Books,
 
 
 
-</div>
+</div> -->
 
+<div class="audio-wrapper">
+            <audio id="player4" preload="auto">
+                  <source src="Atlantis.mp3" type="audio/mp3">
+            </audio>
+
+            <div class="toggle">
+    <div class="on" onclick="playAudio()">
+    	<img src="playbutton.png" id="play-button-img">
+    </div>
+
+    <script type="text/javascript">
+    	let play = function(){document.getElementById("player4").play()}
+    </script>
+    <div class="off" onclick="pauseAudio()">
+
+<img src="Asset 1@1228x.png" id="pause-button-img">
+    </div>
+
+    <script>
+var x2 = document.getElementById("player4"); 
+
+function playAudio() { 
+  x2.play(); 
+} 
+
+function pauseAudio() { 
+  x2.pause(); 
+} 
+</script>
+        </div>
+</div>
 
 <div> 
 <p id="audio-title"> Wayne Shorter, &nbsp;<em>Atlantis</em> </p>
