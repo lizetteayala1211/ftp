@@ -1342,10 +1342,31 @@ All works © Paul Pfeiffer. Courtesy Paula Cooper Gallery, New York
 
 	
 	  <div id="arrow-images">
-  <img src="Asset 1@148x.png" >
+  <img src="Asset 1@148x.png" onclick="plusDivs(-1)">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="Asset 2@148x.png" >
+  <img src="Asset 2@148x.png" onclick="plusDivs(1)">
 </div>
+	
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+	
 <!-- <div id="slider-arrows-container">
   <a href="#slide" class="control_prev"> PG 01 &nbsp; / </a>
   <a href="#slide" class="control_next"> PG 100 </a>
