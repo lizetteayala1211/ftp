@@ -160,13 +160,13 @@
 
 <p id="artist-title-number"> 1 </p>
 
-<p id="artist-title-info-five"> Jessica Lynne </p>
+<p id="artist-title-info-five" class="artistmobilesize"> Jessica Lynne </p>
 
 </div>
 
 <div id="artist-five-title-two">
 	
-<p id="artist-title-info-five"> "A letter written on <br> a day without the sun" </p>
+<p id="artist-title-info-five" class="titlemobilesize"> "A letter written on <br> a day without the sun" </p>
 
 </div>
 
@@ -426,13 +426,13 @@ work on a collection of essays about love, faith, art, and the U.S. South.</p>
 
 <p id="artist-title-number"> 2 </p>
 
-<p id="artist-title-info-four"> Paul Pfeiffer </p>
+<p id="artist-title-info-four" class="artistmobilesize"> Paul Pfeiffer </p>
 
 </div>
 
 <div id="artist-four-title-two">
 	
-<p id="artist-title-info"> "Caryatid" </p>
+<p id="artist-title-info" class="titlemobilesize"> "Caryatid" </p>
 
 </div>
 
@@ -528,7 +528,7 @@ work on a collection of essays about love, faith, art, and the U.S. South.</p>
 <div id="artwork-copy-container">
 
 
-<div id="writing-container"> 
+<div id="writing-container" class="row-switch"> 
 
 <div id="video-slider">
 	
@@ -539,6 +539,8 @@ work on a collection of essays about love, faith, art, and the U.S. South.</p>
 </div>
 
 <div id="video-slider-list">
+
+	<div id="vl2"></div>
 	
 <div id="video-slider-numbers-list">
 
@@ -557,9 +559,306 @@ work on a collection of essays about love, faith, art, and the U.S. South.</p>
 <p id="video-slider-numbers" class="13"> 13 </p>
 <p id="video-slider-numbers" class="14"> 14 </p>	 -->	
 
-<div id="vl"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Broner&nbsp;&nbsp;(2020)" id="click00"/>
+
+<script type="text/javascript">
+
+var myvideo00 = $("<video id='paul-1' src='Caryatid (Broner) (2020) video loop.mp4' playsinline controls autoplay muted loop></video>");
+// var newHtml = "Caryatid (Cotto) (2016) - video loop.mp4";
+
+$("#click00").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo0);
+
+    $("#paul-1")[0].load();
+
+    $("#paul-1")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cotto&nbsp;&nbsp;(2016)" id="clickk"/>
+
+<script type="text/javascript">
+
+var myvideoo = $("<video id='paul-2' src='Caryatid (Cotto) (2016) - video loop.mp4' controls></video>");
+
+$("#clickk").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo);
+
+     $("#paul-2")[0].load();
+
+    $("#paul-2")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De La Hoya&nbsp;&nbsp;(2016)" id="click20"/>
+
+<script type="text/javascript">
+
+var myvideo20 = $("<video id='paul-3' src='Caryatid (De La Hoya) (2016) - video loop.mp4' controls></video>");
+
+$("#click20").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo2);
+
+    $("#paul-3")[0].load();
+
+    $("#paul-3")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duhaupas&nbsp;&nbsp;(2016)" id="click30"/>
+
+<script type="text/javascript">
+
+var myvideo30 = $("<video id='paul-4' src='Caryatid (Duhaupas) (2016) - video loop.mp4' controls></video>");
+
+$("#click30").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo3);
+
+    $("#paul-4")[0].load();
+
+    $("#paul-4")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marquez&nbsp;&nbsp;(2016)" id="click40"/>
+
+<script type="text/javascript">
+
+var myvideo40 = $("<video id='paul-5' src='Caryatid (Marquez) (2016) - video loop.mp4' controls></video>");
+
+$("#click40").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo4);
+
+    $("#paul-5")[0].load();
+
+    $("#paul-5")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mosely&nbsp;&nbsp;(2015)" id="click50"/>
+
+<script type="text/javascript">
+
+var myvideo50 = $("<video id='paul-6' src='Caryatid (Mosley) (2015) - video loop.mp4' controls></video>");
+
+$("#click50").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo5);
+
+    $("#paul-6")[0].load();
+
+    $("#paul-6")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hatton&nbsp;&nbsp;(2015)" id="click60"/>
+
+<script type="text/javascript">
+
+var myvideo60 = $("<video id='paul-7' src='Caryatid (Hatton) (2015) - video loop.mp4' controls></video>");
+
+$("#click60").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo6);
+
+    $("#paul-7")[0].load();
+
+    $("#paul-7")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;08&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rios&nbsp;&nbsp;(2015)" id="click70"/>
+
+<script type="text/javascript">
+
+var myvideo70 = $("<video id='paul-8' src='Caryatid (Rios) (2015) - video loop.mp4' controls></video>");
+
+$("#click70").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo7);
+
+    $("#paul-8")[0].load();
+
+    $("#paul-8")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maidana&nbsp;&nbsp;(2017)" id="click80"/>
+
+<script type="text/javascript">
+
+var myvideo80 = $("<video id='paul-9' src='Caryatid (Maidana) (2017) - video loop.mp4' controls></video>");
+
+$("#click80").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo8);
+
+    $("#paul-9")[0].load();
+
+    $("#paul-9")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pacquiao&nbsp;&nbsp;;(2015)" id="click90"/>
+
+<script type="text/javascript">
+
+var myvideo90 = $("<video id='paul-10' src='Caryatid (Pacquiao) (2015) - video loop.mp4' controls></video>");
+
+$("#click90").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo9);
+
+    $("#paul-10")[0].load();
+
+    $("#paul-10")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stiverne&nbsp;&nbsp;(2018)" id="click100"/>
+
+<script type="text/javascript">
+
+var myvideo100 = $("<video id='paul-11' src='Caryatid (Stiverne) (2018) - video loop.mp4' controls></video>");
+
+$("#click100").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo10);
+
+    $("#paul-11")[0].load();
+
+    $("#paul-11")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bradley&nbsp;&nbsp;(2016)" id="click110"/>
+
+<script type="text/javascript">
+
+var myvideo110 = $("<video id='paul-12' src='Caryatid (Bradley) (2016) - video loop.mp4' controls></video>");
+
+$("#click110").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo11);
+
+    $("#paul-12")[0].load();
+
+    $("#paul-12")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Margarito&nbsp;&nbsp;(2015-17)" id="click120"/>
+
+<script type="text/javascript">
+
+var myvideo120 = $("<video id='paul-13' src='Caryatid (Margarito) (2015-17) video loop.mp4' controls> autoplay</video>");
+
+$("#click120").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo12);
+
+    $("#paul-13")[0].load();
+
+    $("#paul-13")[0].play();
+});		
+</script>
+
+<br>
+
+<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kirkland&nbsp;&nbsp;(2016)" id="click130"/>
+
+<script type="text/javascript">
+
+var myvideo130 = $("<video id='paul-14' src='Caryatid (Kirkland) (2016) - video loop.mp4' controls></video>");
+
+$("#click130").click(function() {
+    //Get rid of that old HTML content
+    $("#video-slider").empty();
+    
+    //Bring in the new content!
+    $("#video-slider").append(myvideo13);
+
+    $("#paul-14")[0].load();
+
+    $("#paul-14")[0].play();
+});		
+</script>		
+
 
 </div>
+
+<div id="vl"></div>
 
 <div id="video-slider-names-list">
 
@@ -932,13 +1231,13 @@ All works © Paul Pfeiffer. Courtesy Paula Cooper Gallery, New York
 
 <p id="artist-title-number-two"> 3 </p>
 
-<p id="artist-title-info-two"> Jibade-Khalil Huffman </p>
+<p id="artist-title-info-two" class="artistmobilesize"> Jibade-Khalil Huffman </p>
 
 </div>
 
 <div id="artist-two-title-two">
 	
-<p id="artist-title-info-two"> "Niagara" </p>
+<p id="artist-title-info-two" class="titlemobilesize"> "Niagara" </p>
 
 </div>
 
@@ -1031,7 +1330,7 @@ All works © Paul Pfeiffer. Courtesy Paula Cooper Gallery, New York
 
 <!-- SIDE BAR END + ARTWORK BEGIN -->
 
-<div id="artwork-copy-container">
+<div id="artwork-copy-container" >
 
 
 <style>
@@ -1039,7 +1338,7 @@ All works © Paul Pfeiffer. Courtesy Paula Cooper Gallery, New York
 </style>
 
 
-<div id="writing-container"> 
+<div id="writing-container" class="row-switch"> 
 
 <div id="writing-copy" class="slider-arrows"> 
 
@@ -1523,13 +1822,13 @@ Jibade-Khalil Huffman, "Niagara," in <em>Sleeper Hold</em> (Hudson: Fence Books,
 
 <p id="artist-title-number-three"> 4 </p>
 
-<p id="artist-title-info-three"> Johan Grimonprez </p>
+<p id="artist-title-info-three" class="artistmobilesize"> Johan Grimonprez </p>
 
 </div>
 
 <div id="artist-three-title-two">
 	
-<p id="artist-title-info-three"> "dial H-I-S-T-O-R-Y" </p>
+<p id="artist-title-info-three" class="titlemobilesize"> "dial H-I-S-T-O-R-Y" </p>
 
 </div>
 
@@ -1675,19 +1974,19 @@ Jibade-Khalil Huffman, "Niagara," in <em>Sleeper Hold</em> (Hudson: Fence Books,
 
 <p id="artist-title-number"> 5 </p>
 
-<p id="artist-title-info"> Jason Moran </p>
+<p id="artist-title-info" class="artistmobilesize"> Jason Moran </p>
 
 </div>
 
 <div id="artist-title-two">
 	
-<p id="artist-title-info"> "Upon Reflection" </p>
+<p id="artist-title-info" class="titlemobilesize"> "Upon Reflection" </p>
 
 </div>
 
 <div id="artist-title-three"></div>
 
-<p id="artist-title-info"> (2020) </p>
+<p id="artist-title-info" class="goaway"> (2020) </p>
 
 </div>
 
