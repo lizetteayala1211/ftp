@@ -39,7 +39,6 @@ script {
 	letter-spacing: 1px;
 }
 
-
 .changefont {
 	font-family: "NeueHaasGrotesk";
 }
@@ -403,70 +402,6 @@ p#placement-artwork-date-line {
 
 }
 
-/*div#timeline1 {
-    width: 100%;
-    height: 2px;
-    background: white;
-    display: block;
-}
-
-.start-time {
-	display: none;
-}
-
-.end-time {
-	display: none;
-}
-
-#seekObjContainer {
-	width: 270px;
-	position: relative;
-    left: 60px;
-    bottom: 25px;
-
-}
-
-div#seekObj1 {
-    width: 10px;
-    height: 20px;
-    position: relative;
-    bottom: 10px;
-    background: white;
-    border-radius: 50%;
-}
-
-div#timeline2 {
-    width: 100%;
-    height: 2px;
-    background: white;
-    display: block;
-}
-
-.start-time2 {
-	display: none;
-}
-
-.end-time2 {
-	display: none;
-}
-*/
-
-/*#seekObjContainer2 {
-	width: 380px;
-	position: relative;
-    left: 60px;
-    bottom: 25px;
-
-}
-
-div#seekObj2 {
-    width: 10px;
-    height: 20px;
-    position: relative;
-    bottom: 10px;
-    background: white;
-    border-radius: 50%;
-}*/
 
 
 #play-button {
@@ -527,43 +462,52 @@ div#seekObj2 {
 }
 
 #slider {
-  position: relative;
-  overflow: hidden;
-  margin: 20px auto 0 auto;
-  border-radius: 4px;
+	width: 70%;
+	margin-bottom: 150px;
 }
 
-#slider ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 200px;
-  list-style: none;
+#fixed {
+	height: 400px;
+	width: 600px;
 }
 
-#slider ul li {
-font-family: 'GrandSlang-Roman';
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  width: 650px;
-  height: 600px;
-  padding: 10px;
-  background: #ccc;
-  text-align: left;
-  font-size: 42px;
-  top: 10%;
+.mySlides {
+	font-family: 'GrandSlang-Roman';
+	font-size: 38px;
+	text-align: left;
 }
+
 
 #slider-arrows-container {
-	width: 150px;
+	width: 160px;
 	border: 1px solid white;
 	position: relative;
 	top: 30%;
 }
 
-a.control_prev, a.control_next {
+button#slider-arrows {
+background: transparent;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+  border: none;
+
+}
+
+button#slider-arrows:hover {
+opacity: 1;
+  -webkit-transition: all 0.2s ease;
+
+}
+
+.margin-fix {
+	margin-bottom: 100px;
+}
+
+/*a.control_prev, a.control_next {
   top: 40%;
   z-index: 999;
   padding: 1% 2%;
@@ -597,7 +541,7 @@ a.control_next {
   width: 160px;
   font-size: 18px;
 }
-
+*/
 
 video#dial-history {
  width: 70%;
@@ -605,6 +549,7 @@ video#dial-history {
 
 #video-container {
 	margin-top: 10px;
+
 }
 
 
