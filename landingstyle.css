@@ -490,6 +490,7 @@ p#placement-artwork-date-line {
 	width: 135px;
 	border: 1px solid white;
 	position: relative;
+	padding: 5px;
 	top: 30%;
 }
 
