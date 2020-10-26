@@ -1311,7 +1311,7 @@ video#paul-14 {
 position: relative;
 display: flex;
 transform: scale(.4);
-right: 60px;
+right: 0px;
 top: 170px;
 }
 
@@ -1319,6 +1319,15 @@ top: 170px;
 	margin-top: 0px;
 
 }
+
+#slider-arrows-container {
+	display: none;
+}
+
+#slider-arrows {
+ display: none;
+}
+
 
 /* ----------- iPhone 4 and 4S ----------- */
 
