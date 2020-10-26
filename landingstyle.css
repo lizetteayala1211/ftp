@@ -461,6 +461,14 @@ p#placement-artwork-date-line {
 	font-size: 12px;
 }
 
+#video-slider-numbers-list {
+	display: none;
+}
+
+#vl2 {
+	display: none;
+}
+
 #slider {
 	width: 70%;
 	margin-bottom: 150px;
@@ -486,6 +494,7 @@ p#placement-artwork-date-line {
 }
 
 button#slider-arrows {
+font-family: "NeueHaasGrotesk";
 background: transparent;
   color: white;
   text-decoration: none;
@@ -913,6 +922,297 @@ video#paul-14 {
     padding-bottom: 3px;
 }
 
+
+
+#click00 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+
+}
+
+#click00:hover, #click00:focus, #click00:active, #click00:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+
+}
+
+
+#clickk {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#clickk:hover, #clickk:focus, #clickk:active, #clickk:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+
+}
+
+#click20 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click20:hover, #click20:focus, #click20:active, #click20:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click30 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click30:hover, #click30:focus, #click30:active, #click30:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click40 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+}
+
+#click40:hover, #click40:focus, #click40:active, #click40:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click50 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+	
+}
+
+#click50:hover, #click50:focus, #click50:active, #click50:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click60 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click60:hover, #click60:focus, #click60:active, #click60:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click70 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click70:hover, #click70:focus, #click70:active, #click70:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click80 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click80:hover, #click80:focus, #click80:active, #click80:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click90 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click90:hover, #click90:focus, #click90:active, #click90:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click100 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click100:hover, #click100:focus, #click100:active, #click100:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click110 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click110:hover, #click110:focus, #click110:active, #click110:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click120 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click120:hover, #click120:focus, #click120:active, #click120:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click130 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click130:hover, #click130:focus, #click130:active, #click130:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+#click140 {
+	background: transparent;
+	color: white;
+	font-family: 'GrandSlang-Roman';
+	font-size: 16px;
+	padding-right: 20px;
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+
+}
+
+#click140:hover, #click140:focus, #click140:active, #click140:visited, .active {
+	border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
 #video-slider {
 	width: 100%;
 }
@@ -991,3 +1291,519 @@ video#paul-14 {
 }
 
 
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  	video#main-vid {
+    object-fit: cover;
+    width: 110vw;
+    height: 110vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#container-row {
+    display: flex;
+    flex-direction: column;
+    width: 110%;
+    height: 100%;
+
+}
+
+  	#title-container {
+  		display: flex;
+  		justify-content: center;
+  		padding-left: 0px;
+  	}
+
+  	h2#title {
+  		font-size: 50px;
+  	}
+
+  	h2#title-line {
+  		width: 40%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    line-height: 0.1em;
+    margin: 10px 20px 70px;
+}
+
+
+  	#artist-container {
+  	font-family: 'NeueHaasGrotesk';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+        margin-left: 300px;
+    margin-right: 300px;
+    border: solid 1px white;
+}
+
+  	#artwork-full-title-long {
+    line-height: 4px;
+    font-size: 25px;
+    text-align: center!important;
+}
+
+p#full-name {
+	text-align: center;
+	font-size: 25px;
+}
+
+p#artwork-title.line-height-change {
+	text-align: center;
+	font-size: 25px;
+}
+
+p#artwork-date {
+	text-align: center;
+	font-size: 25px;
+}
+
+#artwork-full-title {
+    line-height: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#artist-line {
+width: 90%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    line-height: 0.1em;
+    margin: 40px 50px 35px;
+
+}
+
+#credits-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    height: 150px;
+    /* margin: 0px 50px 30px; */
+    /* padding-left: 100px; */
+    /* left: 100px;*/
+
+}
+
+#credits-container-copy-one-first {
+    color: transparent;
+    width: 0%;
+}
+
+#credits-container-copy-one {
+    width: 40%;
+}
+
+#credits-copy {
+    font-size: 20px;
+}
+
+#artist-title-container {
+    font-family: 'GrandSlang-Roman';
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+}
+
+#artist-title-info-five {
+}
+
+#artist-title-one {
+    display: flex;
+    /* justify-content: space-between; */
+     justify-content: flex-start;
+     border: none;
+}
+
+#artist-title-number {
+    font-size: 30px;
+    margin-right: 30px;
+    margin-block-start: 1em;
+}
+
+#artist-five-title-two {
+    border-right: 1px solid white;
+    margin-left: 50px;
+    justify-content: flex-start;
+    text-align: left;
+    border: none;
+    /* padding-right: 100px; */
+    /* text-align: center; */
+}
+
+
+#artist-title-three-one { 
+	display: none!important;
+}
+
+
+#placement-bar {
+    display: none;
+}
+
+.artistmobilesize {
+	font-size: 35px !important;
+}
+
+.titlemobilesize {
+	margin-top: 0;
+	font-size: 40px !important;
+}
+
+#audio-container {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    width: 100%;
+    margin-top: 20px;
+    /* padding-left: 50px; */
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+}
+
+#audio-title {
+	padding-right: 15px;
+    font-size: 25px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#play-button-img {
+    transform: scale(1);
+}
+
+#pause-button-img {
+    transform: scale(1);
+    margin-left: 30px;
+}
+
+#writing-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.line-spacing-essays {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#writing-credits {
+    /* margin-top: 50px; */
+    font-size: 20px;
+}
+
+#artist-four-title-two {
+    border: none;
+    margin-left: 50px;
+
+    padding: 0;
+    text-align: left;
+}
+
+#artist-title-info-small {
+    display: none;
+    font-size: 40px;
+}
+
+#writing-container {
+    display: flex;
+    /*flex-direction: column-reverse;*/
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#writing-container.row-switch {
+	display: flex;
+    flex-direction: column-reverse;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.row-switch {
+	flex-direction: column-reverse;
+}
+
+#video-slider-list {
+	display: flex;
+}
+
+#video-slider-numbers-list {
+	display: block!important;
+}
+
+#video-slider-names-list {
+    position: relative;
+    bottom: 110px;
+    font-family: 'GrandSlang-Roman';
+}
+
+#vl {
+	border-left: 1px solid white;
+  	height: 390px;
+  	position: relative;
+  	left: 95px;
+}
+
+#vl2 {
+	display: flex;
+	border-left: 1px solid white;
+  	height: 390px;
+  	position: relative;
+  	left: 95px;
+}
+
+#click00 { 
+font-size: 30px;
+}
+
+#clickk { 
+font-size: 30px;
+}
+
+#click20 { 
+font-size: 30px;
+}
+
+#click30 { 
+font-size: 30px;
+}
+
+#click40 { 
+font-size: 30px;
+}
+
+#click50 { 
+font-size: 30px;
+}
+
+#click60 { 
+font-size: 30px;
+}
+
+
+
+#click70 { 
+	display: none;
+}
+
+#click80 { 
+	display: none;
+}
+
+#click90 { 
+	display: none;
+}
+
+#click100 { 
+	display: none;
+}
+
+#click110 { 
+	display: none;
+}
+
+#click120 { 
+	display: none;
+}
+
+#click130 { 
+	display: none;
+}
+
+#click0 { 
+	display: none;
+}
+
+
+#click0 { 
+	display: none;
+}
+
+#click { 
+	display: none;
+}
+
+#click2 { 
+	display: none;
+}
+
+#click3 { 
+	display: none;
+}
+
+#click4 { 
+	display: none;
+}
+
+#click5 { 
+	display: none;
+}
+
+#click6 { 
+	display: none;
+}
+
+#click7 { 
+font-size: 30px;
+}
+
+#click8 { 
+font-size: 30px;
+}
+
+#click9 { 
+font-size: 30px;
+}
+
+#click10 { 
+font-size: 30px;
+}
+
+#click11 { 
+font-size: 30px;
+}
+
+#click12 { 
+font-size: 30px;
+}
+
+#click13 { 
+font-size: 30px;
+}
+
+#artist-two-title-two {
+    border: none;
+    margin-left: 50px;
+    padding-right: 0;
+    text-align: left;
+}
+
+#artist-title-three {
+	display: none;
+}
+
+.mySlides {
+    font-family: 'GrandSlang-Roman';
+    font-size: 45px;
+    text-align: left;
+}
+
+#writing-copy-two.margin-fix {
+	display: flex;
+	justify-content: left;
+}
+
+#writing-copy.slider-arrows {
+	display: flex;
+	justify-content: center;
+}
+
+#slider-arrows-container {
+    width: 250px;
+    height: 60px;
+    border: 1px solid white;
+    position: relative;
+    margin-top: 120px;
+    top: 30%;
+}
+
+button#slider-arrows {
+    font-family: "NeueHaasGrotesk";
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-weight: 600;
+    font-size: 35px;
+    opacity: 0.8;
+    cursor: pointer;
+    border: none;
+}
+
+#artist-title-number-two {
+    font-size: 30px;
+    margin-right: 30px;
+    margin-block-start: 1em;
+}
+
+#artist-title-number-three {
+    font-size: 30px;
+    margin-right: 30px;
+    margin-block-start: 1em;
+}
+
+#artist-three-title-two {
+    border: none;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+video#dial-history {
+    width: 100%;
+}
+
+#artist-title-three {
+    display: none;
+}
+
+
+#artist-title-info.goaway {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+}
