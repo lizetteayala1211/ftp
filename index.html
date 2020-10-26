@@ -21,10 +21,21 @@
     }
 </script>
 
+<script>
+    var colors = ["white", "black"];
+    var colorIndex = 0;
+    function changeColor2() {
+        var col = document.getElementById("body");
+        if( colorIndex >= colors.length ) {
+            colorIndex = 0;
+        }
+        col.style.backgroundColor = colors[colorIndex];
+        colorIndex++;
+    }
+</script>
+
 </head>
 <body id="body" >
-
-<!-- partial:index.partial.html -->
 
  <div id="titlewrapper">
  <div id="name container"> <h1 id="name" >SABLE ELYSE SMITH x SWISS INSTITUTE ------------ </h1> <div id="titlebutton" onclick="playAudio('fearSnippet.mp4')"> <a href="landing.html"><span class="enter"></span></a> </div> </div> </div>
@@ -33,6 +44,19 @@
  <div id="name container2"> <h1 id="name2" >SABLE ELYSE SMITH x SWISS INSTITUTE ------------ </h1> <div id="titlebutton2"> <a href="landing.html"><span class="enter2"></span></a> </div> </div> </div>
 
  <div class="container" onclick="changeColor()"> <div class="toggle-btn" id="showTop" onclick="this.classList.toggle('active')" > <div class="inner-circle" onclick="this.classList.toggle('active')" > </div> </div> </div>
+
+ <!-- mobile only -->
+
+ <div id="titlewrapper3">
+ <div id="name-container3"> <h1 id="name3" >SABLE ELYSE SMITH x SWISS INSTITUTE -------- </h1> </div>
+  <div id="titlewrapper4">
+ <div id="name-container4"> <h1 id="name4" >SABLE ELYSE SMITH x SWISS INSTITUTE -------- </h1> </div> </div>
+
+   <div class="container3" onclick="changeColor2()"> <div class="toggle-btn3" id="showTop3" onclick="this.classList.toggle('active3')" > <div class="inner-circle3" onclick="this.classList.toggle('active3')" > </div> </div> </div>
+</div>
+
+
+  <!-- mobile only -->
 
 <div class="showcontainer" id="showTop"> </div>
 
@@ -63,6 +87,19 @@ ONLY TO BE BUILT BACK UP AGAIN.</p>
 </div>
 
 
+<div class="pcontainer2" id="nav2">
+
+  <p id="rotating-title" class="geeks"> 
+
+    FEAR, <br>
+    TOUCH, <br>
+    POLICE.
+
+  </p>
+
+
+</div>
+
 
 <script>
   document.querySelector('#showTop').addEventListener('click', ()=>{
@@ -70,8 +107,26 @@ ONLY TO BE BUILT BACK UP AGAIN.</p>
   });
 </script>
 
+<script>
+  document.querySelector('#showTop3').addEventListener('click', ()=>{
+    document.body.classList.toggle('menu-open2');
+  });
+</script>
 
-<!-- partial -->
+<script>
+  document.querySelector('showTop3').addEventListener('click', ()=>{
+    document.body.classList.toggle('.geeks');
+  });
+</script>
+
+
+<!-- mobile only -->
+<div id="mobile-button-container">
+<div id="titlebutton3" onclick="playAudio('fearSnippet.mp4')"> <a href="landing.html"><span class="enter3"></span></a> </div>
+</div>
+
+<!-- mobile only -->
+
   
 </body>
 </html>
