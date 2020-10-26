@@ -1294,6 +1294,7 @@ video#paul-14 {
 }
 
 #slider-arrows-container {
+	display: none;
     width: 135px;
     border: 1px solid white;
     position: relative;
@@ -1301,6 +1302,10 @@ video#paul-14 {
 
 }
 
+
+#slider-arrows {
+ display: none;
+}
 
 #fixed.mySlides {
 	text-align: center!important;
@@ -1320,13 +1325,6 @@ top: 170px;
 
 }
 
-#slider-arrows-container {
-	display: none;
-}
-
-#slider-arrows {
- display: none;
-}
 
 
 /* ----------- iPhone 4 and 4S ----------- */
