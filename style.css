@@ -221,7 +221,7 @@ font-family: 'MaisonNeue-Book';
 
 }
 
-.toggle-btn > .inner-circle {
+/*.toggle-btn > .inner-circle {
 
   width: 28px;
   height: 25px;
@@ -230,6 +230,18 @@ font-family: 'MaisonNeue-Book';
   transition:all 300ms ease-in-out;
 
 }
+*/
+
+.inner-circle {
+
+  width: 28px;
+  height: 25px;
+  background: white;
+  border-radius: 50%;
+  transition:all 300ms ease-in-out;
+
+}
+
 
 .toggle-btn.active {
 
@@ -285,7 +297,7 @@ p {
   100% { word-spacing: 103px; }
 } 
 
-#c_one:hover {
+/*#c_one:hover {
 
   -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
@@ -305,7 +317,7 @@ p {
 @keyframes hover-animation {
     0% { word-spacing: 103px; }
     100% { word-spacing: 0px; }
-}
+}*/
 
 
 #c_two {
@@ -328,7 +340,7 @@ p {
   100% { word-spacing: 66px; }
 } 
 
-#c_two:hover {
+/*#c_two:hover {
 
  -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
@@ -348,7 +360,7 @@ p {
 @keyframes hover-animationtwo {
     0% { word-spacing: 66px; }
     100% { word-spacing: 0px; }
-}
+}*/
 
 
 #c_three {
@@ -370,7 +382,7 @@ p {
   100% { word-spacing: 315px; }
 } 
 
-#c_three:hover {
+/*#c_three:hover {
 
 -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
@@ -390,7 +402,7 @@ p {
 @keyframes hover-animationthree {
     0% { word-spacing: 315px; }
     100% { word-spacing: 0px; }
-}
+}*/
 
 
 
@@ -414,7 +426,7 @@ p {
   100% { word-spacing: 95px; }
 } 
 
- #c_four:hover {
+ /*#c_four:hover {
 
 -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
@@ -434,7 +446,7 @@ p {
 @keyframes hover-animationfour {
     0% { word-spacing: 95px; }
     100% { word-spacing: 0px; }
-}
+}*/
 
 
 #c_five {
@@ -456,7 +468,7 @@ p {
   100% { word-spacing: 315px; }
 } 
 
-#c_five:hover {
+/*#c_five:hover {
 
   -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
@@ -476,7 +488,7 @@ p {
 @keyframes hover-animationfive {
     0% { word-spacing: 315px; }
     100% { word-spacing: 0px; }
-}
+}*/
 
 
 
@@ -500,7 +512,7 @@ p {
 } 
 
 
- #c_six:hover {
+ /*#c_six:hover {
 
 -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
@@ -520,7 +532,7 @@ p {
 @keyframes hover-animationsix {
     0% { word-spacing: 164px; }
     100% { word-spacing: 0px; }
-}
+}*/
 
 
 #c_seven {
@@ -543,7 +555,7 @@ p {
 } 
 
 
-#c_seven:hover {
+/*#c_seven:hover {
 
 -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
@@ -563,7 +575,7 @@ p {
 @keyframes hover-animationseven {
     0% { word-spacing: 220px; }
     100% { word-spacing: 0px; }
-}
+}*/
 
 
 #c_eight {
@@ -583,7 +595,7 @@ p {
   100% { word-spacing: 93px; }
 } 
 
-#c_eight:hover {
+/*#c_eight:hover {
 
 -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
@@ -604,7 +616,7 @@ p {
     0% { word-spacing: 93px; }
     100% { word-spacing: 0px; }
 }
-
+*/
 
 /* LETTER SPACING ANIMATED WHEN PAGE IS LOADED */
 
