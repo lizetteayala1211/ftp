@@ -14,7 +14,7 @@
 }
 
 body {
-	background-color: black;
+  background-color: black;
   -webkit-transition: background-color 150ms ease-out !important;
   transition: background-color 150ms ease-out !important;
 }
@@ -41,7 +41,7 @@ h2 {
     font-family: 'MaisonNeue-Book';
     font-size: 15px;
     color: white;
-	margin: 25px 25px 0px 25px;
+  margin: 25px 25px 0px 25px;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -50,7 +50,7 @@ h2 {
 }
 
 #titlewrapper {
-	display: flex;
+  display: flex;
 }
 
 
@@ -81,19 +81,19 @@ font-family: 'MaisonNeue-Book';
 .enter:after {
   position: relative; 
   top: -10px;
-	content:'ENTER SITE';
+  content:'ENTER SITE';
 }
 
 .enter:hover:after {
   position: relative;
   top: -10px;
-	color: black;
-	content:'ENTER SITE'; 
+  color: black;
+  content:'ENTER SITE'; 
 }
 
 #titlebutton {
-	float: right;
-	width: 150px;
+  float: right;
+  width: 150px;
   height: 40px;
   margin-top: 5px;
   position: relative;
@@ -108,7 +108,7 @@ font-family: 'MaisonNeue-Book';
 }
 
 #titlebutton:hover {
-	background: white;
+  background: white;
 }
 
 #titlewrapper2 {
@@ -177,6 +177,8 @@ font-family: 'MaisonNeue-Book';
 
 #nav {
         display: none;
+        height: 100vh;
+    
       }
 
       #bigtitle {
@@ -204,6 +206,9 @@ font-family: 'MaisonNeue-Book';
   .menu-open #slogan { display:none; }
 
 
+#nav2 {
+  display:none;
+}
 
 
 /* TOGGLE BUTTON SWITCHING */
@@ -222,13 +227,11 @@ font-family: 'MaisonNeue-Book';
 }
 
 /*.toggle-btn > .inner-circle {
-
   width: 28px;
   height: 25px;
   background: white;
   border-radius: 50%;
   transition:all 300ms ease-in-out;
-
 }
 */
 
@@ -275,12 +278,24 @@ p {
   
 }
 
+#titlewrapper3 {
+  display: none;
+}
+
+#titlewrapper4 {
+  display: none;
+}
+
+#titlebutton3 {
+  display: none;
+}
+
 
 
 /* LETTER SPACING PRE-ANIMATIONS */
 
 #c_one {
-	word-spacing: 103px;
+  word-spacing: 103px;
    -webkit-animation: animc_one 40s;
   animation: animc_one 40s;
   animation-iteration-count: infinite;
@@ -298,22 +313,18 @@ p {
 } 
 
 /*#c_one:hover {
-
   -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 5s ease; 
   cursor: pointer
-
  animation-name: hover-animation;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: initial;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-
 }
-
 @keyframes hover-animation {
     0% { word-spacing: 103px; }
     100% { word-spacing: 0px; }
@@ -341,22 +352,18 @@ p {
 } 
 
 /*#c_two:hover {
-
  -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 5s ease; 
   cursor: pointer
-
  animation-name: hover-animationtwo;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: initial;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-
 }
-
 @keyframes hover-animationtwo {
     0% { word-spacing: 66px; }
     100% { word-spacing: 0px; }
@@ -364,7 +371,7 @@ p {
 
 
 #c_three {
-	word-spacing: 315px;
+  word-spacing: 315px;
   -webkit-animation: animc_three 40s;
   animation: animc_three 40s;
   animation-iteration-count: infinite;
@@ -383,22 +390,18 @@ p {
 } 
 
 /*#c_three:hover {
-
 -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 5s ease; 
   cursor: pointer
-
  animation-name: hover-animationthree;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: initial;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-
 }
-
 @keyframes hover-animationthree {
     0% { word-spacing: 315px; }
     100% { word-spacing: 0px; }
@@ -407,7 +410,7 @@ p {
 
 
 #c_four {
-	word-spacing: 95px;
+  word-spacing: 95px;
   -webkit-animation: animc_four 40s;
   animation: animc_four 40s;
   animation-iteration-count: infinite;
@@ -427,22 +430,18 @@ p {
 } 
 
  /*#c_four:hover {
-
 -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 5s ease; 
   cursor: pointer
-
  animation-name: hover-animationfour;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: initial;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-
 }
-
 @keyframes hover-animationfour {
     0% { word-spacing: 95px; }
     100% { word-spacing: 0px; }
@@ -450,7 +449,7 @@ p {
 
 
 #c_five {
-	word-spacing: 315px;
+  word-spacing: 315px;
   -webkit-animation: animc_five 40s;
   animation: animc_five 40s;
   animation-iteration-count: infinite;
@@ -469,22 +468,18 @@ p {
 } 
 
 /*#c_five:hover {
-
   -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 5s ease; 
   cursor: pointer
-
  animation-name: hover-animationfive;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: initial;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-
 }
-
 @keyframes hover-animationfive {
     0% { word-spacing: 315px; }
     100% { word-spacing: 0px; }
@@ -513,22 +508,18 @@ p {
 
 
  /*#c_six:hover {
-
 -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 5s ease; 
   cursor: pointer
-
  animation-name: hover-animationsix;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: initial;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-
 }
-
 @keyframes hover-animationsix {
     0% { word-spacing: 164px; }
     100% { word-spacing: 0px; }
@@ -556,22 +547,18 @@ p {
 
 
 /*#c_seven:hover {
-
 -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 5s ease; 
   cursor: pointer
-
  animation-name: hover-animationseven;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: initial;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-
 }
-
 @keyframes hover-animationseven {
     0% { word-spacing: 220px; }
     100% { word-spacing: 0px; }
@@ -596,22 +583,18 @@ p {
 } 
 
 /*#c_eight:hover {
-
 -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 5s ease; 
   cursor: pointer
-
  animation-name: hover-animationeight;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: initial;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-
 }
-
 @keyframes hover-animationseight {
     0% { word-spacing: 93px; }
     100% { word-spacing: 0px; }
@@ -631,5 +614,342 @@ p {
 }
 
 
-/* LETTER SPACING ANIMATED WHEN HOVERED OVER */
- 
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+#titlewrapper {
+  display: none;
+}
+
+#titlewrapper2 {
+  display: none;
+}
+
+.container {
+  display: none;
+}
+
+
+#titlewrapper3 {
+  display: flex;
+}
+
+#titlewrapper4 {
+display: none;
+}
+
+#name4 {
+  color: black;
+}
+
+#mobile-button-container {
+display: flex;
+position: absolute;
+bottom:0;
+left: 35%;
+margin-top: 10%;
+margin-bottom: 5%;
+justify-content: space-around;
+align-self: center;
+}
+
+.enter3 {
+font-family: 'MaisonNeue-Book';
+    font-size: 35px;
+    top: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.enter3:after {
+  position: relative; 
+  top: -10px;
+  content:'ENTER SITE';
+}
+
+.enter3:hover:after {
+  position: relative;
+  top: -10px;
+  color: black;
+  content:'ENTER SITE'; 
+}
+
+#titlebutton3 {
+  display: flex;
+justify-content: center;
+  float: right;
+  width: 300px;
+  height: 80px;
+  margin-top: 5px;
+  position: relative;
+  top: 8px;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  background: black;
+}
+
+#titlebutton3:hover {
+  background: white;
+}
+
+h1 {
+  font-family: 'GrandSlang-Roman';
+  font-size: 30px;
+  color: white;
+  margin: 25px 25px 0px 25px;
+   -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; 
+  cursor: pointer
+}
+
+
+/* TOGGLE BUTTON SWITCHING */
+
+.toggle-btn3 {
+
+  margin-top: 10px;
+  width: 170px;
+  height: 60px;
+  background: black;
+  border-radius: 30px;
+  border:1px solid white;
+  padding: 2px;
+  transition:all 300ms ease-in-out;
+}
+
+.toggle-btn3 > .inner-circle3 {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  transition:all 300ms ease-in-out;
+}
+
+
+.inner-circle3 {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  transition:all 300ms ease-in-out;
+
+}
+
+
+.toggle-btn3.active3 {
+
+  background: white;
+  border:1px solid black;
+
+}
+
+.inner-circle3.active3 {
+
+  background: black;
+
+}
+
+.toggle-btn3.active3 > .inner-circle3 {
+  margin-left: 115px;
+}
+
+#slogan.pcontainer {
+  margin-top: 5%;
+}
+
+#nav2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        height: 100vh;
+        width: 100vw;
+    
+      }
+
+      #rotating-title {
+        display: flex;
+        text-align: center;
+        font-family: "GrandSlang-Roman";
+        font-size: 160px;
+        color: black;
+        margin-top: 20%;
+      }
+
+    
+
+
+  .menu-open2 #name-container3 { display:none; }
+  .menu-open2 #titlewrapper4 { display: flex; }
+  .menu-open2 #nav2 { display:flex; }
+  .menu-open2 #slogan { display:none; }
+
+
+p {
+  margin: 25px 25px 20px 25px;
+  font-family: 'MaisonNeue-Book';
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px; 
+  -webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease; 
+  cursor: pointer
+  }
+
+#c_one {
+  word-spacing: 80px;
+   -webkit-animation: animc_one 40s;
+  animation: animc_one 40s;
+  animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+  }
+
+@keyframes animc_one {
+
+  0%   { word-spacing: 80px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 80px; }
+}
+
+#c_two {
+    word-spacing: 66px;
+   -webkit-animation: animc_two 40s;
+    animation: animc_two 40s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes animc_two {
+
+
+
+  0%   { word-spacing: 66px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 66px; }
+} 
+
+
+
+
+#c_three {
+  word-spacing: 120px;
+  -webkit-animation: animc_three 40s;
+  animation: animc_three 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animc_three {
+
+
+
+  0%   { word-spacing: 120px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 120px; }
+} 
+
+#c_four {
+  word-spacing: 80px;
+  -webkit-animation: animc_four 40s;
+  animation: animc_four 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes animc_four {
+
+
+
+  0%   { word-spacing: 80px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 80px; }
+} 
+
+#c_five {
+  word-spacing: 120px;
+  -webkit-animation: animc_five 40s;
+  animation: animc_five 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animc_five {
+
+
+
+  0%   { word-spacing: 120px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 120px; }
+} 
+
+#c_six {
+  word-spacing: 30px;
+  -webkit-animation: animc_six 40s;
+  animation: animc_six 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animc_six {
+
+
+
+  0%   { word-spacing: 30px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 30px; }
+} 
+
+
+#c_seven {
+  word-spacing: 70px;
+  -webkit-animation: animc_seven 40s;
+  animation: animc_seven 40s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animc_seven {
+
+
+
+  0%   { word-spacing: 70px; }
+  50%   { word-spacing: 0px; }
+  100% { word-spacing: 70px; }
+} 
+
+
+
+
+  }
