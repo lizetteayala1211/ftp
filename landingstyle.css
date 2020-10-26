@@ -1291,6 +1291,10 @@ video#paul-14 {
 }
 
 
+
+div#fixed.mySlides {
+	text-align: center;
+}
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait */
@@ -1720,10 +1724,12 @@ font-size: 30px;
 	display: none;
 }
 
+	  
+	  
 .mySlides {
     font-family: 'GrandSlang-Roman';
     font-size: 45px;
-    text-align: left;
+    text-align: center;
 }
 
 #writing-copy-two.margin-fix {
