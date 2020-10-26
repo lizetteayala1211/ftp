@@ -1294,9 +1294,10 @@ video#paul-14 {
 
 
 
-div#fixed.mySlides {
-	text-align: center;
+#fixed.mySlides {
+	text-align: center!important;
 }
+
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait */
