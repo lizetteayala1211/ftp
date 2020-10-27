@@ -1926,6 +1926,18 @@ div#fixed.mySlides {
 #dividing-line-container {
 	display: none;
 }
+	  
+#to-home {
+    font-family: 'GrandSlang-Roman';
+    font-size: 80px;
+    padding-left: 0;
+}
+
+#to-top {
+    font-family: 'GrandSlang-Roman';
+    font-size: 80px;
+    padding-right: 0;
+}	  
 
 /*.mobilemenuhide {
 	display: none;
