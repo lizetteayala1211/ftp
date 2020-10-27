@@ -1353,11 +1353,16 @@ top: 170px;
 
 }
 
+#container {
+	background: rgba(0, 0, 0, 0.5);
+}	  
+	  
   	#title-container {
   		display: flex;
   		justify-content: center;
   		padding-left: 0px;
   	}
+	    
 
   	h2#title {
   		font-size: 50px;
