@@ -2,7 +2,7 @@ function playAudio(url) {
   new Audio(url).play();
 }
 
-audio.loop = true;
+playAudio.loop = true;
 
 
 
