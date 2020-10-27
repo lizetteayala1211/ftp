@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+/*
+audio {
+  display:none;
+}*/
 
 h1 {
   font-family: 'GrandSlang-Roman';
@@ -274,7 +278,7 @@ p {
   -moz-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 5s ease; 
-  cursor: pointer
+  cursor: pointer;
   
 }
 
@@ -302,6 +306,7 @@ p {
     animation-direction: initial;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+    cursor: pointer;
 
   }
 
@@ -662,8 +667,8 @@ align-self: center;
 
 .enter3 {
 font-family: 'MaisonNeue-Book';
-    font-size: 35px;
-    top: 15px;
+    font-size: 50px;
+    top: 50px;
     text-align: center;
     position: relative;
 }
@@ -685,8 +690,8 @@ font-family: 'MaisonNeue-Book';
   display: flex;
 justify-content: center;
   float: right;
-  width: 300px;
-  height: 80px;
+  width: 400px;
+  height: 150px;
   margin-top: 5px;
   position: relative;
   top: 8px;
@@ -775,7 +780,7 @@ h1 {
         display: flex;
         justify-content: center;
         margin-top: 10%;
-        height: 100vh;
+        /*height: 100vh;*/
         width: 100vw;
     
       }
@@ -784,7 +789,7 @@ h1 {
         display: flex;
         text-align: center;
         font-family: "GrandSlang-Roman";
-        font-size: 160px;
+        font-size: 200px;
         color: black;
         margin-top: 20%;
       }
@@ -802,13 +807,13 @@ p {
   margin: 25px 25px 20px 25px;
   font-family: 'MaisonNeue-Book';
   color: white;
-  font-size: 20px;
+  font-size: 50px;
   letter-spacing: 2px; 
   -webkit-transition: all 5s ease;
   -moz-transition: all 5s ease;
   -o-transition: all 5s ease;
   transition: all 5s ease; 
-  cursor: pointer
+  cursor: pointer;
   }
 
 #c_one {
