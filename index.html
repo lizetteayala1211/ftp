@@ -37,8 +37,29 @@
 </head>
 <body id="body" >
 
+<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+    <script type="text/javascript">
+    
+$(function(){
+$('#titlebutton').hover(
+    function() {    $("audio")[0].play();},
+    )
+});
+
+  </script>
+
+  
+
  <div id="titlewrapper">
- <div id="name container"> <h1 id="name" >SABLE ELYSE SMITH x SWISS INSTITUTE ------------ </h1> <div id="titlebutton" onclick="playAudio('fearSnippet.mp4')"> <a href="landing.html"><span class="enter"></span></a> </div> </div> </div>
+ <div id="name container"> <h1 id="name" >SABLE ELYSE SMITH x SWISS INSTITUTE ------------ </h1> <div id="titlebutton"> <a href="landing.html"><span class="enter"></span></a> 
+
+<audio  preload="auto" id="beep-one">
+  <source src="fearSnippet.mp4" controls></source>
+  <source src="fearSnippet.ogg" controls></source>
+  Your browser isn't invited for super fun audio time.
+</audio>
+
+ </div> </div></div>
 
   <div id="titlewrapper2">
  <div id="name container2"> <h1 id="name2" >SABLE ELYSE SMITH x SWISS INSTITUTE ------------ </h1> <div id="titlebutton2"> <a href="landing.html"><span class="enter2"></span></a> </div> </div> </div>
@@ -48,9 +69,9 @@
  <!-- mobile only -->
 
  <div id="titlewrapper3">
- <div id="name-container3"> <h1 id="name3" >SABLE ELYSE SMITH x SWISS INSTITUTE -------- </h1> </div>
+ <div id="name-container3"> <h1 id="name3" >SABLE ELYSE SMITH x SWISS INSTITUTE ------ </h1> </div>
   <div id="titlewrapper4">
- <div id="name-container4"> <h1 id="name4" >SABLE ELYSE SMITH x SWISS INSTITUTE -------- </h1> </div> </div>
+ <div id="name-container4"> <h1 id="name4" >SABLE ELYSE SMITH x SWISS INSTITUTE ------ </h1> </div> </div>
 
    <div class="container3" onclick="changeColor2()"> <div class="toggle-btn3" id="showTop3" onclick="this.classList.toggle('active3')" > <div class="inner-circle3" onclick="this.classList.toggle('active3')" > </div> </div> </div>
 </div>
