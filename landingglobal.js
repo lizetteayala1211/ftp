@@ -1,3 +1,8 @@
+[...document.querySelectorAll(".js-noMenu")].forEach( el => 
+ el.addEventListener('contextmenu', e => e.preventDefault())
+);
+
+
 var buttons = document.getElementsByTagName("input");
 
 function setActive(el) {
