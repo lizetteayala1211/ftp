@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title> FEAR </title>
+  <title> FTP </title>
   <link rel="stylesheet" href="./style.css">
   <script type="text/javascript" src="global.js"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -35,7 +35,9 @@
 </script>
 
 </head>
-<body id="body" onclick="playAudio('fearSnippet.mp4')">
+<body id="body">
+
+<!--   onclick="playAudio('fearSnippet.mp4')" -->
 
 <!-- <script type="text/javascript" src="js/jquery-2.0.3.js"></script>
     <script type="text/javascript">
@@ -48,38 +50,38 @@ $('#titlebutton').hover(
 
   </script> -->
 
-  
-
- <div id="titlewrapper">
- <div id="name container"> <h1 id="name" >SABLE ELYSE SMITH x SWISS INSTITUTE ------------ </h1> <div id="titlebutton"> <a href="fear.html"><span class="enter"></span></a> 
-
-<audio  preload="auto" id="beep-one">
+  <audio  preload="auto" id="beep-one">
   <source src="fearSnippet.mp4" controls></source>
   <source src="fearSnippet.ogg" controls></source>
   Your browser isn't invited for super fun audio time.
-</audio>
+  </audio>
 
- </div> </div></div>
+
+
+ <div id="titlewrapper">
+ <div id="name-container"> <h1 id="name" > SABLE ELYSE SMITH x SWISS INSTITUTE </h1> <hr size="1" color="white"> <div id="titlebutton"> <div id="showTop"  onclick="changeColor(); playAudio();" onclick="this.classList.toggle('active')"> <span class="enter"> </span> </div>
+ </div> </div> </div>
 
   <div id="titlewrapper2">
- <div id="name container2"> <h1 id="name2" >SABLE ELYSE SMITH x SWISS INSTITUTE ------------ </h1> <div id="titlebutton2"> <a href="fear.html"><span class="enter2"></span></a> </div> </div> </div>
+ <div id="name-container2">  <h1 id="name2" >SABLE ELYSE SMITH x SWISS INSTITUTE </h1> <hr size="1" color="black"> <div id="titlebutton2"> <div id="showTop2"  onclick="changeColor(); playAudio();" onclick="this.classList.toggle('active')" > <span class="enter2"></span> </div> </div> </div> </div>
 
- <div class="container" onclick="changeColor(); playAudio();"> <div class="toggle-btn" id="showTop" onclick="this.classList.toggle('active')"> <div class="inner-circle" onclick="this.classList.toggle('active')" > </div> </div> </div>
+ <!-- <div class="container" onclick="changeColor(); playAudio();"> <div class="toggle-btn" id="showTop" onclick="this.classList.toggle('active')"> <div class="inner-circle" onclick="this.classList.toggle('active')" > </div> </div> </div>
+ -->
 
  <!-- mobile only -->
 
  <div id="titlewrapper3">
- <div id="name-container3"> <h1 id="name3" >SABLE ELYSE SMITH x SWISS INSTITUTE ------ </h1> </div>
+ <div id="name-container3"> <h1 id="name3" >SABLE ELYSE SMITH x SWISS INSTITUTE  </h1> </div>
   <div id="titlewrapper4">
- <div id="name-container4"> <h1 id="name4" >SABLE ELYSE SMITH x SWISS INSTITUTE ------ </h1> </div> </div>
+ <div id="name-container4"> <h1 id="name4" >SABLE ELYSE SMITH x SWISS INSTITUTE  </h1> </div> </div>
 
-   <div class="container3" onclick="changeColor2()"> <div class="toggle-btn3" id="showTop3" onclick="this.classList.toggle('active3')" > <div class="inner-circle3" onclick="this.classList.toggle('active3')" > </div> </div> </div>
+<!--    <div class="container3" onclick="changeColor2()"> <div class="toggle-btn3" id="showTop3" onclick="this.classList.toggle('active3')" > <div class="inner-circle3" onclick="this.classList.toggle('active3')" > </div> </div> </div> -->
+
 </div>
-
 
   <!-- mobile only -->
 
-<div class="showcontainer" id="showTop"> </div>
+<!-- <div class="showcontainer"> </div> -->
 
 <div class="pcontainer"  id="slogan" >
 
@@ -100,9 +102,9 @@ ONLY TO BE BUILT BACK UP AGAIN.</p>
 
 <div class="pcontainer" id="nav">
 
-  <p id="bigtitle">FEAR, </p>
-  <p id="bigtitle2">TOUCH, </p>
-    <p id="bigtitle">POLICE. </p>
+  <p id="bigtitle"> <a href="fear.html"> FEAR, </a> </p>
+  <p id="bigtitle2"> <a href="touchindex.html"> TOUCH, </a> </p>
+    <p id="bigtitle3"> <span class="coming-soon"> POLICE. </span> </p>
 
 
 </div>
@@ -112,12 +114,21 @@ ONLY TO BE BUILT BACK UP AGAIN.</p>
 
   <p id="rotating-title" class="geeks"> 
 
-    FEAR, <br>
-    TOUCH, <br>
-    POLICE.
+   <a href="fear.html"> FEAR, </a>
 
   </p>
 
+    <p id="rotating-title" class="geeks"> 
+
+  <a href="touchindex.html"> TOUCH, </a>
+
+  </p>
+
+  <p id="rotating-title-2" class="geeks"> 
+
+    <span class="coming-soon"> POLICE. </span>
+
+  </p>
 
 </div>
 
@@ -129,22 +140,35 @@ ONLY TO BE BUILT BACK UP AGAIN.</p>
 </script>
 
 <script>
-  document.querySelector('#showTop3').addEventListener('click', ()=>{
-    document.body.classList.toggle('menu-open2');
+  document.querySelector('#showTop2').addEventListener('click', ()=>{
+    document.body.classList.toggle('menu-open');
   });
 </script>
 
 <script>
-  document.querySelector('showTop3').addEventListener('click', ()=>{
-    document.body.classList.toggle('.geeks');
+  // document.querySelector('#showTop3').addEventListener('click', ()=>{
+  //   // document.body.classList.toggle('menu-open2');
+  //   $("#slogan").toggle("menu-open2"); 
+  // });
+  $(function() {                       //run when the DOM is ready
+  $("#mobile-button-container").click(function() {  //use a class, since your ID gets mangled
+    $("#name-container3").toggleClass("active");
+    $("#titlewrapper4").toggleClass("active");
+    $("#name-container4").toggleClass("active");
+    $("#slogan").toggleClass("active"); 
+    $("#nav2").toggleClass("active"); 
   });
+});
 </script>
-
 
 <!-- mobile only -->
 <div id="mobile-button-container">
-<div id="titlebutton3" onclick="playAudio('fearSnippet.mp4')"> <a href="fear.html"><span class="enter3"></span></a> </div>
+<div id="titlebutton3" onclick="this.classList.toggle('active3')"> <div id="showTop3" onclick="changeColor2(); playAudio();" onclick="this.classList.toggle('active3')"> <span class="enter3"></span> </div> </div>
 </div>
+
+<!-- <div id="mobile-button-container">
+<div id="titlebutton3" onclick="playAudio('fearSnippet.mp4')"> <div class="container3" onclick="changeColor2()"> <div class="toggle-btn3" id="showTop3" onclick="this.classList.toggle('active3')" > <div class="inner-circle3" onclick="this.classList.toggle('active3')" > </div> </div> </div>  </div>
+</div> -->
 
 <!-- mobile only -->
 
