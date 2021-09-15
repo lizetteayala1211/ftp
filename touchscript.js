@@ -24,6 +24,10 @@ document.addEventListener('play', function(e){
 }, true);
 
 
+var a = document.getElementsByTagName("audio")[0];
+a.addEventListener("pause", function() { video.trigger("play"); }, true);
+
+
 /*  if audio is playing when video appears, pause audio  */
 
 var v = document.getElementsByTagName("video")[0];
@@ -1015,8 +1019,25 @@ $(document).ready(function() {
     // showSlider()
   })
   // console.log('navItems', $navItems)
+  // if ($('#auto-left-copy-section-nav7').hasClass('selected')) {
 
+  //     $('#jimmy').play();
+  //   } else {
+  //     $('#jimmy').pause();
+  //   }
 })
+
+function videopause() {
+  var videop = document.getElementById("jimmy");
+
+if($('.slider6').css('display') == 'none') {
+  videop.pause();
+}
+
+}
+
+
+
 
 /*	audio players js	*/
 
@@ -1062,7 +1083,7 @@ function play3() {
   console.log(audio3.currentTime);
   setInterval(function() {
 
-    if (audio3.currentTime > 107) {
+    if (audio3.currentTime > 106) {
 
       audio3.pause();
       console.log(audio3.currentTime);
@@ -1084,7 +1105,7 @@ function play4() {
   console.log(audio4.currentTime);
   setInterval(function() {
 
-    if (audio4.currentTime > 158) {
+    if (audio4.currentTime > 157) {
 
       audio4.pause();
       console.log(audio4.currentTime);
