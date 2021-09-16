@@ -611,6 +611,8 @@ $(document).ready(function() {
 
     next.fadeIn(1000).show()
 
+    videopause()
+
   }
 
   $("#slider-nav-right-img").click(function(e) {
@@ -999,6 +1001,7 @@ function openSliderWithSpecificSlide($slider, $sliderItems, slideIndex) {
   $slider.find('li').hide()
   var $selectedSlide = $sliderItems.eq(slideIndex)
   $selectedSlide.fadeIn(1000).show()
+  videopause()
 }
 
 $(document).ready(function() {
@@ -1028,12 +1031,11 @@ $(document).ready(function() {
 })
 
 function videopause() {
-  var videop = document.getElementById("jimmy");
+	var videop = document.getElementById("jimmy");
 
-if($('.slider6').css('display') == 'none') {
-  videop.pause();
-}
-
+	if($('.slider6').css('display') == 'none') {
+	  videop.pause();
+	}
 }
 
 
