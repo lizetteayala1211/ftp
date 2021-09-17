@@ -940,6 +940,7 @@ span#text {
 #scroll {
  	height: 100%;
  	width: 100%;
+ 	max-width: 100%;
  	/*overflow: auto;*/
  	color: white;
  	font-size: 20px;
@@ -963,7 +964,7 @@ span#text {
 
 #nav-marquee-copy-section {
 	height: 60%;
-	width: 98.5%;
+/*	width: 98.5%;*/
 /*	border: 1px solid white;*/
 /*	padding: 10px;*/
 	display: flex;
@@ -971,6 +972,20 @@ span#text {
 	align-items: center;
 	text-align: center;*/
 }
+
+
+#track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
 
 /* NEW CSS */
 
