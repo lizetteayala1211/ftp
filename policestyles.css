@@ -1,0 +1,343 @@
+/* font faces */
+
+@font-face {
+    font-family: "Sometimes";
+    src: url("./assets/fonts/Sometimes-Times.otf");
+}
+
+body {
+    background-color: black;
+    background-image: url(./assets/images/background/background.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#notes-container {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    width: calc(100% - 25px);
+    height: calc(100% - 25px);
+/*    border: 1px solid white;*/
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+#elements-container {
+    width: 98%;
+    height: 96%;
+    display: flex; 
+    align-self: center;  
+    flex-direction: column; 
+/*    background-color: green;*/
+    align-self: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#top-container {
+    width: 100%;
+    height: 50%;
+    display: flex;    
+    flex-direction: row;
+    align-self: center;
+/*    background-color: green;*/
+    font-family: "Sometimes";
+}
+
+#name-container {
+    width: 22%;
+    height: 20%;
+    display: flex;
+    /*background-color: red;*/
+    color: white;
+    font-size: 1vw;
+}
+
+#name-container.top.first{ 
+    transition:all .8s ease;
+    cursor: pointer !important;
+}
+
+#name-container.top.first:hover { 
+    transform:skew(-15deg);
+}
+
+#name-container.top.second { 
+    transition:all .8s ease;
+    cursor: pointer !important;
+}
+
+#name-container.top.second:hover { 
+    transform:skew(-15deg);
+}
+
+#name-container.top.third { 
+    transition:all .8s ease;
+    cursor: pointer !important;
+}
+
+#name-container.top.third:hover { 
+    transform:skew(-15deg);
+}
+
+#name-container.top.fourth { 
+    transition:all .8s ease;
+    cursor: pointer !important;
+}
+
+#name-container.top.fourth:hover { 
+    transform:skew(-15deg);
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: white;
+    cursor: pointer !important;
+}
+
+#bio-container {
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+/*    background-color: red;*/
+    color: white;
+    font-size: 1.2vw;
+    overflow: scroll;
+    cursor: default;
+}
+
+#bio-copy {
+    width: 52%;
+    height: 100%;
+    display: none;
+    align-self: center;
+/*    background-color: red;*/
+    color: white;
+    font-size: 1.1vw;
+/*    margin-top: 10px;*/
+}
+
+#bio-copy.margin-left {
+    display: none;
+    margin-left: 15px;
+}
+
+#middle-container { 
+    width: 100%;
+    height: 20%;
+    display: flex;    
+    flex-direction: row;
+    align-self: center;
+/*    background-color: green;*/
+    font-family: "Sometimes";
+}
+
+#name-container.middle.first {
+    width: 12%;
+    cursor: default;
+}
+
+#name-container.middle.second {
+    width: 29%;
+    cursor: default;
+}
+
+#name-container.middle.third {
+    cursor: default;
+}
+
+#bottom-container {
+    width: 100%;
+    height: 15%;
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+/*    background-color: blue;*/
+    font-family: "Sometimes";
+}
+
+#name-container.bottom.first {
+    width: 40%;
+    cursor: default;
+}
+
+#play-button {
+    color: white;
+    width: 35%;
+/*    background-color: red;*/
+    transition:all .8s ease;
+    cursor: pointer !important;
+    font-size: 1vw;
+}
+
+#play-button:hover {
+    transform:skew(-15deg);
+}
+
+#pause-button {
+    color: white;
+    width: 15%;
+    display: flex;  
+    justify-content: flex-end;
+/*    background-color: orange;*/
+    transition:all .8s ease;
+    cursor: pointer !important;
+    margin-right: 10px;
+    font-size: 1vw;
+}
+
+#pause-button:hover {
+    transform:skew(-15deg);
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+body {
+    background-color: black;
+    background-image: url(./assets/images/background/background.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: repeat;
+    overflow: visible;
+}
+
+#name-container {
+    width: 18%;
+    height: 20%;
+    display: flex;
+    /*background-color: red;*/
+    color: white;
+    font-size: 2vw;
+}
+
+#name-container.top.fourth { 
+    width: 10%;
+}
+
+#bio-container {
+    width: 34%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    color: white;
+    font-size: 2.5vw;
+    overflow: scroll;
+    cursor: default;
+}
+
+#bio-copy {
+    width: 90%;
+    height: auto;
+    display: none;
+    align-self: center;
+    /* background-color: red; */
+    color: white;
+    font-size: 2.5vw;
+    /* margin-top: 10px; */
+}
+
+#bio-copy.margin-left {
+    display: none;
+    margin-left: 0px;
+}
+
+#middle-container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+    /* background-color: green; */
+    font-family: "Sometimes";
+    position: relative;
+    top: -25vh;
+    left: 0vw;
+    font-size: 1.7vw;
+}
+
+#name-container.middle.first {
+    width: 100%;
+    cursor: default;
+    font-size: 2.5vw;
+}
+
+#name-container.middle.second {
+    width: 35%;
+    cursor: default;
+    /*display: none;*/
+    position: relative;
+    top: 62vh;
+    right: -61vw;
+}
+
+#name-container.middle.third {
+    cursor: default;
+    /*display: none;*/
+    position: relative;
+    top: 62.1vh;
+    left: -33vw;
+}
+
+#bottom-container {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    /* background-color: blue; */
+    font-family: "Sometimes";
+    position: relative;
+    top: -20vh;
+    left: 0vw;
+    font-size: 1.7vw;
+}
+
+#name-container.bottom.first {
+    width: 100%;
+    cursor: default;
+    font-size: 2.5vw;
+}
+
+#play-button {
+    color: white;
+    width: 100%;
+    /* background-color: red; */
+    transition: all .8s ease;
+    cursor: pointer !important;
+    font-size: 2.5vw;
+}
+
+#pause-button {
+    color: white;
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: orange; */
+    transition: all .8s ease;
+    cursor: pointer !important;
+    margin-right: 10px;
+    font-size: 2.5vw;
+    position: absolute;
+    bottom: 0vh;
+    left: 24vw;
+}
+
+
+
+
+
+
+
+}
