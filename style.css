@@ -307,9 +307,9 @@ p {
   display: none;
 }
 
-#bigtitle3:hover .coming-soon {display:none; }
+/*#bigtitle3:hover .coming-soon {display:none; }
 #bigtitle3:hover:before {content:"COMING LATE 2021."; font-size: 55px; position: relative;}
-
+*/
 
 
 /* LETTER SPACING PRE-ANIMATIONS */
